@@ -1,10 +1,10 @@
 import React from 'react'
-
-import { ExampleComponent } from 'odp-reactor-ui'
 import 'odp-reactor-ui/dist/index.css'
+import 'semantic-ui-css/semantic.min.css'
+import { VisualFrameExamples } from './pages/VisualFrameExamples'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <VisualFrameExamples />
 }
 
 export default App

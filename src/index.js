@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './styles.module.css'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+import TimeIndexedTypedLocation from "./visualframes/timeindexedtypedlocation/TimeIndexedTypedLocation"
+import Collection from "./visualframes/collection/Collection"
+import PartWhole from "./visualframes/partwhole/PartWhole"
+
+export { Collection, TimeIndexedTypedLocation, PartWhole }

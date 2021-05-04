@@ -1,4 +1,4 @@
-# odp-reactor-ui
+# linked-data-ui
 
 > user interfaces based on ontology design patterns for linked data and knowledge graph
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save odp-reactor-ui
+npm install --save linked-data-ui
 ```
 
 ## Usage
