@@ -1,5 +1,5 @@
 import React from "react"
-import { Collection } from "odp-reactor-ui"
+import { Collection } from "linked-data-ui"
 
 export function CollectionExample2() {
     	

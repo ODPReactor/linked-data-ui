@@ -1,6 +1,6 @@
 import React from "react"
 
-import { PartWhole } from "odp-reactor-ui"
+import { PartWhole } from "linked-data-ui"
 
 export function PartWholeExample() {
     const whole = {
