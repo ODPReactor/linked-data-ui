@@ -1,5 +1,5 @@
 import React from "react"
-import { Collection } from "linked-data-ui"
+import { Collection } from "odp-reactor-visualframes"
 
 export function CollectionExample() {
     	
