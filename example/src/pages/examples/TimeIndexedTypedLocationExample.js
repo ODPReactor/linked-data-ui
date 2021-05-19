@@ -1,5 +1,5 @@
 import React from "react"
-import { TimeIndexedTypedLocation } from "odp-reactor-visualframes"
+import { TimeIndexedTypedLocation } from "odp-reactor-visualframes/dist/browser"
 
 export function TimeIndexedTypedLocationExample() {
 

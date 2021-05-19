@@ -1,5 +1,6 @@
 import React from 'react'
 import 'odp-reactor-visualframes/dist/index.css'
+import 'odp-reactor-visualframes/dist/browser.css'
 import 'semantic-ui-css/semantic.min.css'
 import { VisualFrameExamples } from './pages/VisualFrameExamples'
 
