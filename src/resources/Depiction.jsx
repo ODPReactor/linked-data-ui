@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 
 const { namedNode } = require("@rdfjs/data-model");
-import path from "./EndpointConfig";
+import {PathCreator} from "./PathCreator";
 
 export default function Depiction({
     uri,
     classes,
     onLoadedDepiction,
     onClick,
+    source,
     depiction = null,
     style = {},
     label,
@@ -15,6 +16,9 @@ export default function Depiction({
 }) {
     const [image, setImage] = useState(depiction);
 
+    const path = PathCreator.create({
+        source
+    })
     const cProp = path.create({
         subject: namedNode(uri),
     });

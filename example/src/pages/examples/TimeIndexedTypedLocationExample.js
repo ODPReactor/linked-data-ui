@@ -1,5 +1,9 @@
 import React from "react"
+<<<<<<< Updated upstream
 import { TimeIndexedTypedLocation } from "odp-reactor-visualframes/dist/browser"
+=======
+import { TimeIndexedTypedLocation } from "odp-reactor-visualframes"
+>>>>>>> Stashed changes
 
 export function TimeIndexedTypedLocationExample() {
 
