@@ -5,6 +5,7 @@ import {CollectionExample} from "./examples/CollectionExample"
 import {CollectionExample2} from "./examples/CollectionExample2"
 import {TimeIndexedTypedLocationExample} from "./examples/TimeIndexedTypedLocationExample"
 import {PartWholeExample} from "./examples/PartWholeExample"
+import {PartWholeExample2} from "./examples/PartWholeExample2"
 
 const style = {
   h1: {
@@ -51,7 +52,10 @@ export function VisualFrameExamples() {
                 </Segment>
               </Grid.Column>
               <Grid.Column>
-                <Segment>Content</Segment>
+              <Segment>
+                  <Header as='h4' content='Cultural Property Components' style={style.h3} textAlign='center' />
+                  <PartWholeExample2 />
+                </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment>Content</Segment>

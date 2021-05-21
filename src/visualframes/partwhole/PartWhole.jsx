@@ -24,7 +24,6 @@ import "./PartWhole.css";
 export default function PartWhole({
     parts,
     whole,
-    source,
     onResourceClick = (e) => {},
     styles = {
         containerStyle: {
