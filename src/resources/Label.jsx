@@ -2,10 +2,14 @@ import React, { useState, useEffect } from "react";
 
 const { namedNode } = require("@rdfjs/data-model");
 
-import path from "./EndpointConfig";
+import {PathCreator} from "./PathCreator";
 
-export default function Label({ uri, text = null, classes, style = {} }) {
+export default function Label({ uri, source, text = null, classes, style = {} }) {
     const [label, setLabel] = useState(text);
+
+    const path = PathCreator.create({
+        source
+    })
 
     const cProp = path.create({
         subject: namedNode(uri),

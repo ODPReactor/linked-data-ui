@@ -121,11 +121,13 @@ export default function PartWhole({
                                 placeholderImg={part.placeholder}
                                 onLoadedDepiction={onLoadedDepiction}
                                 depiction={part.depiction}
+                                source={part.source}
                                 label={
                                     <Label
                                         uri={part.uri}
                                         text={part.label}
                                         classes={"part-whole-label"}
+                                        source={part.source}
                                         style={{
                                             ...labelStyle,
                                             ...defaultItemLabelStyle,
@@ -153,11 +155,13 @@ export default function PartWhole({
                             depiction={whole.depiction}
                             placeholderImg={whole.placeholder}
                             onLoadedDepiction={onLoadedDepiction}
+                            source={whole.source}
                             label={
                                 <Label
                                     uri={whole.uri}
                                     classes="part-whole-whole-label"
                                     text={whole.label}
+                                    source={whole.source}
                                     style={{
                                         ...centerLabelStyle,
                                         ...defaultCenterLabelStyle,
